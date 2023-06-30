@@ -11,3 +11,6 @@ git subtree pull --prefix src/main/protos/ protocol master
 
 ## Run the included *.sh files to initialize the dependencies
 
+# update command
+
+protoc --js_out=import_style=commonjs,binary:. ./core/Tron.proto
